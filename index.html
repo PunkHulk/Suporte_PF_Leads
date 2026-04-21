@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Krets Tecnologia | Assistência Técnica e Setup Gamer</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        krets: {
+                            'dark': '#09090b',
+                            'card': '#18181b',
+                            'accent': '#00FF00',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+
+<body class="bg-krets-dark text-gray-200 font-sans antialiased">
+
+    <nav class="bg-krets-card border-b border-zinc-800">
+        <div class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
+            <img src="logo.png" alt="Krets" class="h-12 w-auto">
+
+            <div class="flex items-center gap-6">
+                <a href="https://instagram.com/krets.info" target="_blank" rel="noopener noreferrer" class="text-gray-400 hover:text-krets-accent transition-colors" title="Siga a Krets no Instagram">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                        <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                        <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                    </svg>
+                </a>
+
+                <a href="https://wa.me/13997732288" class="bg-krets-accent text-black font-black px-6 py-2 rounded uppercase text-sm tracking-wider hover:bg-white transition-colors">WhatsApp Rápido</a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="py-20 relative overflow-hidden">
+        <div class="max-w-6xl mx-auto px-4 relative z-10 flex flex-col md:flex-row items-center gap-12">
+            <div class="md:w-1/2">
+                <span class="text-krets-accent font-bold tracking-widest uppercase text-xs">Atendimento em Domicílio ou Laboratório</span>
+                <h1 class="text-5xl font-black text-white leading-tight mt-4 uppercase">Máxima Performance para o seu Setup.</h1>
+                <p class="text-lg text-gray-400 mt-6 leading-relaxed">
+                    De formatações rápidas a montagens customizadas de alta complexidade. Diagnóstico preciso para computadores de uso diário e workstations de alto desempenho.
+                </p>
+                <div class="mt-8">
+                    <a href="https://wa.me/13997732288" class="inline-block bg-krets-accent text-black px-8 py-4 rounded font-black hover:bg-white transition-colors uppercase tracking-widest shadow-[0_0_15px_rgba(0,255,0,0.3)]">Falar com um Técnico</a>
+                </div>
+            </div>
+            <div class="md:w-1/2">
+                <img src="https://images.unsplash.com/photo-1587202372775-e229f172b9d7?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="PC Gamer Custom" class="rounded-xl border border-zinc-800 shadow-2xl opacity-80 hover:opacity-100 transition-opacity">
+            </div>
+        </div>
+    </section>
+
+    <section class="py-16 bg-krets-card">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="grid md:grid-cols-3 gap-6">
+                <div class="bg-krets-dark p-6 rounded-lg border border-zinc-800">
+                    <h3 class="text-xl font-bold text-white mb-3">Assistência Técnica e Reparos</h3>
+                    <ul class="space-y-2 text-sm text-gray-400">
+                        <li>• Formatação com backup completo</li>
+                        <li>• Troca de telas e teclados (Notebooks)</li>
+                        <li>• Recuperação de carcaças e dobradiças</li>
+                        <li>• Remoção de vírus e otimização de sistema</li>
+                    </ul>
+                </div>
+                <div class="bg-krets-dark p-6 rounded-lg border border-zinc-800 border-t-4 border-t-krets-accent">
+                    <h3 class="text-xl font-bold text-white mb-3">Montagem High-End e Upgrades</h3>
+                    <ul class="space-y-2 text-sm text-gray-400">
+                        <li>• Cable management impecável</li>
+                        <li>• Otimização de Airflow (curva de fans/BIOS)</li>
+                        <li>• Instalação de Water Coolers e Air Coolers de torre</li>
+                        <li>• Upgrades de placas-mãe, CPUs e GPUs</li>
+                    </ul>
+                </div>
+                <div class="bg-krets-dark p-6 rounded-lg border border-zinc-800">
+                    <h3 class="text-xl font-bold text-white mb-3">Manutenção Preventiva</h3>
+                    <ul class="space-y-2 text-sm text-gray-400">
+                        <li>• Limpeza química de contatos</li>
+                        <li>• Troca de pasta térmica (CPU/GPU)</li>
+                        <li>• Desoxidação de componentes</li>
+                        <li>• Testes de estresse e temperatura</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-16 bg-krets-dark border-t border-zinc-800">
+        <div class="max-w-4xl mx-auto px-4 text-center">
+            <h2 class="text-2xl font-bold text-white mb-4">Projetos Customizados</h2>
+            <p class="text-gray-400 mb-6">Também trabalhamos com projetos especiais, reparo de eletrônicos basicos e configuração de sistemas dedicados.</p>
+            <a href="https://wa.me/13997732288" class="text-krets-accent font-bold hover:text-white transition-colors">Consulte disponibilidade -></a>
+        </div>
+    </section>
+
+    <footer class="text-center py-8 bg-krets-card text-zinc-600 text-xs border-t border-zinc-800">
+        &copy; 2026 Krets Tecnologia - Baixada Santista<br>
+        <a href="https://www.krets.com.br" class="mt-2 inline-block hover:text-krets-accent">É uma empresa? Conheça nosso atendimento empresarial.</a>
+    </footer>
+
+</body>
+
+</html>
