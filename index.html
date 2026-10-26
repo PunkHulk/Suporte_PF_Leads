@@ -46,7 +46,7 @@
 
     <nav class="bg-krets-card border-b border-zinc-800">
         <div class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
-            <img src="logo.png" alt="Krets" class="h-12 w-auto">
+            <img src="logo.png" alt="Krets" class="h-14 w-14 rounded-full object-cover border-2 border-krets-accent shadow-[0_0_18px_rgba(0,255,0,0.55)]">
 
             <div class="flex items-center gap-6">
                 <a href="https://instagram.com/krets.info" target="_blank" rel="noopener noreferrer" class="text-gray-400 hover:text-krets-accent transition-colors" title="Siga a Krets no Instagram">
@@ -75,7 +75,10 @@
                 </div>
             </div>
             <div class="md:w-1/2">
-                <img src="https://images.unsplash.com/photo-1587202372775-e229f172b9d7?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="PC Gamer Custom" class="rounded-xl border border-zinc-800 shadow-2xl opacity-80 hover:opacity-100 transition-opacity">
+                <figure class="relative max-w-md mx-auto">
+                    <video class="w-full aspect-[4/5] object-cover rounded-xl border border-krets-accent/40 shadow-[0_0_40px_rgba(0,255,0,0.15)]" src="img/montagem-rgb-loop.mp4" poster="img/montagem-rgb.webp" autoplay muted loop playsinline preload="metadata" aria-label="PC gamer montado pela Krets com water cooler e iluminação RGB"></video>
+                    <figcaption class="absolute bottom-3 left-3 bg-black/70 text-krets-accent text-xs font-bold uppercase tracking-widest px-3 py-1 rounded">Montagem real · Krets</figcaption>
+                </figure>
             </div>
         </div>
     </section>
@@ -114,11 +117,32 @@
         </div>
     </section>
 
+    <section class="py-16 bg-krets-dark">
+        <div class="max-w-6xl mx-auto px-4">
+            <span class="text-krets-accent font-bold tracking-widest uppercase text-xs">Feito na nossa bancada</span>
+            <h2 class="text-3xl font-black text-white uppercase mt-2 mb-8">Do gabinete vazio ao setup ligado</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
+                <figure class="bg-krets-card rounded-lg overflow-hidden border border-zinc-800">
+                    <img src="img/montagem-andamento.webp" alt="Placa-mãe, processador e placa de vídeo sendo instalados no gabinete" loading="lazy" class="w-full aspect-[4/5] object-cover">
+                    <figcaption class="p-4 text-sm text-gray-400"><strong class="block text-white">Montagem e cable management</strong>Cada cabo passado por trás, sem nó e sem sobra.</figcaption>
+                </figure>
+                <figure class="bg-krets-card rounded-lg overflow-hidden border border-zinc-800">
+                    <img src="img/montagem-airflow.webp" alt="Fans iluminados no topo do gabinete" loading="lazy" class="w-full aspect-[4/5] object-cover">
+                    <figcaption class="p-4 text-sm text-gray-400"><strong class="block text-white">Airflow planejado</strong>Fans posicionados e curva ajustada na BIOS.</figcaption>
+                </figure>
+                <figure class="bg-krets-card rounded-lg overflow-hidden border border-zinc-800">
+                    <img src="img/montagem-pronta.webp" alt="PC finalizado com water cooler, memórias RGB e iluminação verde" loading="lazy" class="w-full aspect-[4/5] object-cover">
+                    <figcaption class="p-4 text-sm text-gray-400"><strong class="block text-white">Pronto para jogar</strong>Testado em estresse antes da entrega.</figcaption>
+                </figure>
+            </div>
+        </div>
+    </section>
+
     <section class="py-16 bg-krets-dark border-t border-zinc-800">
         <div class="max-w-4xl mx-auto px-4 text-center">
             <h2 class="text-2xl font-bold text-white mb-4">Projetos Customizados</h2>
-            <p class="text-gray-400 mb-6">Também trabalhamos com projetos especiais, reparo de eletrônicos basicos e configuração de sistemas dedicados.</p>
-            <a href="https://wa.me/13997732288" class="text-krets-accent font-bold hover:text-white transition-colors">Consulte disponibilidade -></a>
+            <p class="text-gray-400 mb-6">Também trabalhamos com projetos especiais, reparo de eletrônicos básicos e configuração de sistemas dedicados.</p>
+            <a href="https://wa.me/13997732288" class="text-krets-accent font-bold hover:text-white transition-colors">Consulte disponibilidade &rarr;</a>
         </div>
     </section>
 
